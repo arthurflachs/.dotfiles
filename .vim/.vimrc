@@ -8,6 +8,11 @@
 
 syntax enable
 
+" Indent option
+set expandtab
+set shiftwidth=4
+set tabstop=4
+
 " Avoid the <esc> key to exit insert mode
 inoremap jk    <esc>
 inoremap kj    <esc>

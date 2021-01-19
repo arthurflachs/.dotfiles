@@ -17,3 +17,8 @@ Trying to re-build my vim config from scratch so that :
 ### 2. Install vim-plug
 
 Need some plugins...
+
+### 3. Add some indentation rules
+
+Spaces over tabs
+4 spaces by default
