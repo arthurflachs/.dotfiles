@@ -13,3 +13,7 @@ Trying to re-build my vim config from scratch so that :
 
 * Using jk (and kj) instead of escape to quit insert mode
 * Disable arrows
+
+### 2. Install vim-plug
+
+Need some plugins...
