@@ -13,6 +13,9 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+" Enable syntax highlighting
+syntax enable
+
 " Avoid the <esc> key to exit insert mode
 inoremap jk    <esc>
 inoremap kj    <esc>
@@ -23,6 +26,14 @@ inoremap <c-c> <nop>
 call plug#begin('~/.vim/plugged')
 
 Plug '~/vim-potion'
+
+" Javascript syntax
+Plug 'pangloss/vim-javascript'
+
+" Typescript syntax
+" Plug 'leafgarland/typescript-vim'
+" Plug 'HerringtonDarkholme/yats.vim'
+Plug './pangloss-typescript-extension'
 
 " End of vim-plug
 call plug#end()
