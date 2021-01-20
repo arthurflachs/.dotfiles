@@ -44,5 +44,8 @@ Plug 'pangloss/vim-javascript'
 " Plug 'HerringtonDarkholme/yats.vim'
 Plug '~/.vim/custom-plugins/pangloss-typescript-extension'
 
+" JSX syntax
+Plug 'MaxMEllon/vim-jsx-pretty'
+
 " End of vim-plug
 call plug#end()

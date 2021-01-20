@@ -61,4 +61,4 @@ I choose to use pangloss/vim-javascript
 
 ### 5. Install gruvbox theme
 
-
+### 6. Add MaxMEllon/vim-jsx-pretty
