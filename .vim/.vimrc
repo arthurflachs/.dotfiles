@@ -47,5 +47,11 @@ Plug '~/.vim/custom-plugins/pangloss-typescript-extension'
 " JSX syntax
 Plug 'MaxMEllon/vim-jsx-pretty'
 
+" Vim Fugitive
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
 " End of vim-plug
 call plug#end()
+
+set updatetime=100
