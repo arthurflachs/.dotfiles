@@ -58,3 +58,7 @@ The basic javascript syntax on nvim is quite poor :
 I choose to use pangloss/vim-javascript
 
 ![pangloss javascript syntax](/doc/assets/vim/2021-01-19-pangloss.png)
+
+### 5. Install gruvbox theme
+
+
