@@ -64,3 +64,7 @@ I choose to use pangloss/vim-javascript
 ### 6. Add MaxMEllon/vim-jsx-pretty
 
 ### 7. Use pangloss/vim-javascript for tsx files
+
+### 8. Completion (coc.nvim)
+
+First impression : auto-complete seems to be working well and to be responsive, but the whole plugin is quite heavy (lots of configuration, hacks etc...)
