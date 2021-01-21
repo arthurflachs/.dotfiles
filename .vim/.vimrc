@@ -42,7 +42,7 @@ Plug 'pangloss/vim-javascript'
 " Typescript syntax
 " Plug 'leafgarland/typescript-vim'
 " Plug 'HerringtonDarkholme/yats.vim'
-Plug '~/.vim/custom-plugins/pangloss-typescript-extension'
+Plug '~/.dotfiles2/.vim/custom-plugins/pangloss-typescript-extension'
 
 " JSX syntax
 Plug 'MaxMEllon/vim-jsx-pretty'

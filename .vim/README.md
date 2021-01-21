@@ -62,3 +62,5 @@ I choose to use pangloss/vim-javascript
 ### 5. Install gruvbox theme
 
 ### 6. Add MaxMEllon/vim-jsx-pretty
+
+### 7. Use pangloss/vim-javascript for tsx files
