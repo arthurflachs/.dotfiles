@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "Notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "Vercel": {
+      "type": "http",
+      "url": "https://mcp.vercel.com"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        ".claude/mcp/playwright-wrapper.js",
+        "--viewport-size=1280x720",
+        "--save-video=1280x720",
+        "--output-dir=./demo-recordings",
+        "--caps=core,tracing"
+      ]
+    },
+    "memory": {
+      "command": "docker",
+      "args": ["run", "-i", "-v", "claude-memory:/app/dist", "--rm", "mcp/memory"]
+    }
+  }
+}

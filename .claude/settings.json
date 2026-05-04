@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "WebFetch",
+      "WebSearch"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "input=$(cat); dir=$(echo \"$input\" | jq -r '.workspace.current_dir'); remaining=$(echo \"$input\" | jq -r '.context_window.remaining_percentage // empty'); branch=$(cd \"$dir\" && git -c advice.detachedHead=false rev-parse --abbrev-ref HEAD 2>/dev/null || echo ''); git_status=$(cd \"$dir\" && git -c advice.detachedHead=false status --porcelain 2>/dev/null | wc -l | tr -d ' '); dirty=''; [ \"$git_status\" -gt 0 ] 2>/dev/null && dirty=$' \\033[33m\\xe2\\x9c\\x97\\033[0m'; cwd=\"$(basename \"$dir\")\"; printf '\\033[1;32m\\xe2\\x9e\\x9c\\033[0m \\033[36m%s\\033[0m' \"$cwd\"; [ -n \"$branch\" ] && printf ' \\033[1;34mgit:(\\033[0m\\033[31m%s\\033[0m\\033[1;34m)\\033[0m%s' \"$branch\" \"$dirty\"; [ -n \"$remaining\" ] && printf ' \\033[2m[ctx:%d%%]\\033[0m' \"$remaining\""
+  },
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true,
+    "figma@claude-plugins-official": false,
+    "feature-dev@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": false,
+    "plugin-dev@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": false,
+    "playwright@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": false,
+    "lua-lsp@claude-plugins-official": false,
+    "github@claude-plugins-official": false,
+    "impeccable@impeccable": true,
+    "claude-mem@thedotmack": true
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "xhigh",
+  "feedbackSurveyState": {
+    "lastShownTime": 1754056107643
+  },
+  "preferredNotifChannel": "terminal_bell"
+}

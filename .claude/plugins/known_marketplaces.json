@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/arthurflachs/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-05-04T21:05:54.402Z"
+  },
+  "impeccable": {
+    "source": {
+      "source": "github",
+      "repo": "pbakaus/impeccable"
+    },
+    "installLocation": "/Users/arthurflachs/.claude/plugins/marketplaces/impeccable",
+    "lastUpdated": "2026-01-30T12:17:41.150Z"
+  },
+  "thedotmack": {
+    "source": {
+      "source": "github",
+      "repo": "thedotmack/claude-mem"
+    },
+    "installLocation": "/Users/arthurflachs/.claude/plugins/marketplaces/thedotmack",
+    "lastUpdated": "2026-04-05T18:16:32.192Z"
+  }
+}

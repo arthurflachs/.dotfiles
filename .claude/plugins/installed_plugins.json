@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "plugins": {
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/context7/unknown",
+        "version": "unknown",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-04-03T17:40:18.435Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown",
+        "version": "unknown",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-04-03T17:40:18.434Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown",
+        "version": "unknown",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-04-03T17:40:18.436Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "plugin-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/plugin-dev/unknown",
+        "version": "unknown",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-04-03T17:40:18.436Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-01-13T08:13:28.163Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/playwright/unknown",
+        "version": "unknown",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-04-03T17:40:18.436Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "gopls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/gopls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-01-13T08:13:28.163Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "lua-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/lua-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-13T08:13:28.163Z",
+        "lastUpdated": "2026-01-13T08:13:28.163Z",
+        "gitCommitSha": "f70b65538da094ff474a855e7a679fb2c2c8064f"
+      }
+    ],
+    "figma@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/figma/2.1.30",
+        "version": "2.1.30",
+        "installedAt": "2026-01-13T10:00:48.810Z",
+        "lastUpdated": "2026-04-28T19:11:51.278Z",
+        "gitCommitSha": "20aca44ee6ba6092037e943c151c067896828360"
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/claude-plugins-official/github/unknown",
+        "version": "unknown",
+        "installedAt": "2026-01-24T15:38:38.837Z",
+        "lastUpdated": "2026-04-03T17:40:18.435Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ],
+    "impeccable@impeccable": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/impeccable/impeccable/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-30T12:19:28.568Z",
+        "lastUpdated": "2026-01-30T12:19:28.568Z",
+        "gitCommitSha": "517fcfe47efc1ba5a303864c7f1b3ab4e9031981"
+      }
+    ],
+    "claude-mem@thedotmack": [
+      {
+        "scope": "user",
+        "installPath": "/Users/arthurflachs/.claude/plugins/cache/thedotmack/claude-mem/11.0.0",
+        "version": "11.0.0",
+        "installedAt": "2026-04-05T18:16:32.450Z",
+        "lastUpdated": "2026-04-05T18:16:32.450Z",
+        "gitCommitSha": "76a27296f0e2c2231763c19c86acd21613bed709"
+      }
+    ]
+  }
+}
